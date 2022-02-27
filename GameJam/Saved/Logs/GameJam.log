@@ -11945,3 +11945,884 @@ Script Stack (0 frames):
 [2022.02.27-21.39.16:416][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.02.27-21.39.16:428][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
 [2022.02.27-21.39.16:439][213]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.02.27-21.39.42:400][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.02.27-21.39.49:759][363]LogMainFrame: Project does not require temp target
+[2022.02.27-21.39.49:764][363]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2022.02.27-21.39.50:140][363]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2022.02.27-21.39.50:462][402]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=F:/GameJam/GameJam/GameJam.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=F:/GameJam/GameJam/GameJam.uproject -cook -stage -archive -archivedirectory="F:/Новая папка" -package -ue4exe=F:\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe -compressed -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2022.02.27-21.39.52:063][594]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for F:\GameJam\GameJam\GameJam.uproject
+[2022.02.27-21.39.53:955][821]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2022.02.27-21.39.53:963][822]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project F:\GameJam\GameJam\GameJam.uproject
+[2022.02.27-21.39.53:963][822]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is F:\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.02.27-23.39.53.txt
+[2022.02.27-21.39.53:963][822]UATHelper: Packaging (Windows (64-bit)): Running: F:\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe F:\GameJam\GameJam\GameJam.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog=F:\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2022.02.27-23.39.53.txt -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2022.02.27-21.39.58:856][409]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.02.27-21.39.58:856][409]UATHelper: Packaging (Windows (64-bit)):   LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+[2022.02.27-21.39.58:856][409]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: GameJam
+[2022.02.27-21.39.59:616][500]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Loading text-based GConfig....
+[2022.02.27-21.40.02:898][894]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17109774336 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.02.27-21.40.03:132][922]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.02.27-21.40.03:181][928]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.02.27-21.40.03:258][937]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.02.27-21.40.03:258][937]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.02.27-21.40.03:291][941]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.02.27-21.40.03:332][946]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.02.27-21.40.03:415][956]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.02.27-21.40.03:432][958]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.02.27-21.40.03:465][962]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.02.27-21.40.03:490][965]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.02.27-21.40.03:523][969]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.02.27-21.40.03:582][976]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.02.27-21.40.03:582][976]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.02.27-21.40.03:648][984]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.02.27-21.40.03:665][986]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.02.27-21.40.03:682][988]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.02.27-21.40.03:699][990]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.02.27-21.40.03:732][994]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.02.27-21.40.03:732][994]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.02.27-21.40.03:757][997]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.02.27-21.40.03:808][  3]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.02.27-21.40.03:832][  6]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.02.27-21.40.03:866][ 10]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.02.27-21.40.03:866][ 10]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2022.02.27-21.40.03:990][ 25]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.02.27-21.40.04:474][ 83]UATHelper: Packaging (Windows (64-bit)):   LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.02.27-21.40.08:199][530]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.02.27-21.40.11:065][874]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.02.27-21.40.11:125][881]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.02.27-21.40.11:166][886]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.02.27-21.40.11:216][892]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=20.61MBs, RandomWriteSpeed=246.58MBs. Assigned SpeedClass 'Local'
+[2022.02.27-21.40.20:891][ 53]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.27-21.40.20:891][ 53]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.27-21.40.32:592][457]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.02.27-21.40.32:592][457]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2022.02.27-21.40.32:592][457]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2022.02.27-21.40.41:226][493]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2022.02.27-21.40.41:226][493]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2022.02.27-21.40.41:226][493]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2022.02.27-21.40.41:251][496]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.023 seconds for platforms WindowsNoEditor
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5) Stats:
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 191 (19100.00%)
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 1962, Unique Shaders: 1951 (99.44%)
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 5.10mb, Unique Shaders Size: 5.09mb (99.93%)
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../GameJam/GameJam/Saved/Shaders/PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5/Dump.txt'
+[2022.02.27-21.40.41:968][582]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.02.27-21.40.42:110][599]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 919 Total 919
+[2022.02.27-21.40.42:110][599]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=217, VirtualMemory=517MiB
+[2022.02.27-21.40.43:518][764]UATHelper: Packaging (Windows (64-bit)):   LogStaticMesh: Warning: Mesh SM_Shell_12Gauge_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty.
+[2022.02.27-21.40.43:518][764]PackagingResults: Warning: Mesh SM_Shell_12Gauge_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty.
+[2022.02.27-21.40.43:981][820]UATHelper: Packaging (Windows (64-bit)):   LogStaticMesh: Warning: Mesh SM_Shell_762x39_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty.
+[2022.02.27-21.40.43:981][820]PackagingResults: Warning: Mesh SM_Shell_762x39_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty.
+[2022.02.27-21.40.44:219][848]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\InInteraction\Elevator1.uasset: [Compiler] InputAction Event references unknown Action 'E' for  InputAction E
+[2022.02.27-21.40.44:219][848]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\InInteraction\Elevator1.uasset: [Compiler] InputAction Event references unknown Action 'E' for  InputAction E
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:418][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:419][872]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.40.44:423][873]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:423][873]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:423][873]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:423][873]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:423][873]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:423][873]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:427][873]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:427][873]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.40.44:431][874]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:431][874]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.40.44:668][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:668][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:669][902]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.40.44:670][902]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:670][902]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:674][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:677][903]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:682][904]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:702][906]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:703][906]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:703][906]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:707][907]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:714][908]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:727][909]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.40.44:944][935]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.40.44:944][935]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.40.44:948][936]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.40.44:948][936]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.44:948][936]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.44:948][936]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.40.44:948][936]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.44:948][936]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.45:231][970]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2022.02.27-21.40.45:232][970]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.40.45:232][970]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.40.45:232][970]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.45:232][970]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2022.02.27-21.40.45:232][970]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.40.45:232][970]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.40.45:232][970]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.45:235][970]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.45:236][970]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:311][979]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:311][979]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:315][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:319][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:319][980]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:319][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:319][980]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.40.45:757][ 33]UATHelper: Packaging (Windows (64-bit)):   LogStaticMesh: Warning: Mesh SM_G67_Thrown is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown.
+[2022.02.27-21.40.45:757][ 33]PackagingResults: Warning: Mesh SM_G67_Thrown is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown.
+[2022.02.27-21.40.46:140][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:140][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:144][ 79]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth LMB" in 'BaseCharacter_C'.
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   Make sure 'BaseCharacter_C' has been compiled for  Earth LMB from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:148][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth LMB" in 'BaseCharacter_C'.
+[2022.02.27-21.40.46:148][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth" in 'BaseCharacter_C'.
+[2022.02.27-21.40.46:152][ 80]UATHelper: Packaging (Windows (64-bit)):   Make sure 'BaseCharacter_C' has been compiled for  Earth from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.40.46:152][ 80]PackagingResults: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth" in 'BaseCharacter_C'.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:169][ 82]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:186][ 84]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:393][109]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:394][109]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:394][109]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:394][109]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:394][109]PackagingResults: Warning: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:394][109]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.40.46:507][123]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.46:507][123]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.46:507][123]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.40.46:507][123]PackagingResults: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.40.46:708][147]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 214 Packages Remain 944 Total 1158
+[2022.02.27-21.40.47:283][214]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 364 Packages Remain 795 Total 1159
+[2022.02.27-21.40.49:399][464]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 714 Packages Remain 449 Total 1163
+[2022.02.27-21.40.50:133][547]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:133][547]PackagingResults: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:135][547]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:135][547]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:135][547]PackagingResults: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:135][547]PackagingResults: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:139][547]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:139][547]PackagingResults: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:145][548]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.50:145][548]PackagingResults: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.40.51:826][713]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:826][713]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:826][713]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:826][713]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:826][713]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:826][713]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:829][713]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:829][713]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]UATHelper: Packaging (Windows (64-bit)):   AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:930][725]PackagingResults: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.40.51:951][728]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1064 Packages Remain 99 Total 1163
+[2022.02.27-21.40.52:269][766]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 1162 Packages Remain 0 Total 1162
+[2022.02.27-21.40.52:269][766]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=1168, VirtualMemory=2155MiB
+[2022.02.27-21.40.52:269][766]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2022.02.27-21.41.04:422][224]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2022.02.27-21.41.04:422][224]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2022.02.27-21.41.04:422][224]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2022.02.27-21.41.04:422][224]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2022.02.27-21.41.04:423][224]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2022.02.27-21.41.04:438][226]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry v8.
+[2022.02.27-21.41.04:464][229]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 1207, size is 387.88kb
+[2022.02.27-21.41.04:464][229]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2022.02.27-21.41.05:205][318]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2022.02.27-21.41.05:205][318]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Library 'GameJam' (PCD3D_SM5) Stats:
+[2022.02.27-21.41.05:205][318]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Assets: 175, Unique Shadermaps: 151 (86.29%)
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shaders: 4600, Unique Shaders: 3193 (69.41%)
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Total Shader Size: 9.96mb, Unique Shaders Size: 7.90mb (79.25%)
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: === Extended info:
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Minimum number of shaders in shadermap: 2
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Median number of shaders in shadermap: 17
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Maximum number of shaders in shadermap: 493
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2022.02.27-21.41.05:213][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:     76, 58, 58, 28, 22, 22, 21, 20, 18, 18
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Textual dump saved to '../../../../GameJam/GameJam/Saved/Shaders/PCD3D_SM5/ShaderDebug-GameJam-PCD3D_SM5/Dump.txt'
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 10.066774s total time 32.695366
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 2164 MiB Peak Used physical 2175 MiB
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CleanSandbox: 0.023s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CollectFilesToCook: 0.133s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GenerateLongPackageName: 0.001s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 10.066s (5176)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.002s (12135)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackageForCooking: 4.157s (1162)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 5.888s (32)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         BeginPackageCacheForCookedPlatformData: 0.329s (392)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 1.060s (1159)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           BeginPackageCacheForCookedPlatformData: 1.059s (932)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 3.927s (1162)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 3.894s (1162)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.008s (1162)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.005s (1127)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.013s (1162)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.001s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.006s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.001s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.862s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.011s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.002s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.023s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.436s (1)
+[2022.02.27-21.41.05:288][328]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.001667s to verify the EDL loading graph.
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000020
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.001807
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPreloadedDependencies=640
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumInlineLoads=196
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=906
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=7.677096
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: CookOnTheFlyServer
+[2022.02.27-21.41.05:296][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakRequestQueueSize=900
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakLoadQueueSize=944
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakSaveQueueSize=936
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=1162
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=2.600648
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.948209
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.086684
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000520
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.003737
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.007796
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000748
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.314643
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.435608
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.392198
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=1124.650184
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=66.890692
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=34.188980
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=32.699716
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=9.515551
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000011
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=23.086486
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=4.157098
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=3.926900
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=1.387979
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.040706
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.001039
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.001885
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000203
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =      4091
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =      4097
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.998536
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.543813
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.454723
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.001464
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =         6
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =         6
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2022.02.27-21.41.05:297][329]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                            11.56                   0.00             0        919.62
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LandscapeCollision (Heightfield)                1.12                   1.12             0          2.54
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.82                   0.82             0         16.49
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SkeletalMesh                                    0.75                   0.75             0         82.51
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.71                   0.71             3         18.30
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.63                   0.63             0         31.46
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.49                   0.49             3          0.32
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: AnimSequence                                    0.32                   0.32             0          3.42
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.01                   0.01             0          6.31
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         99.89
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.07
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Audio (Inline)                                  0.00                   0.00             0          0.00
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth LMB" in 'BaseCharacter_C'.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   Make sure 'BaseCharacter_C' has been compiled for  Earth LMB from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth . Please refresh node or break links to remove pin. from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth" in 'BaseCharacter_C'.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   Make sure 'BaseCharacter_C' has been compiled for  Earth from Source: /Game/AnnParshina/AI/Mage.Mage
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogStaticMesh: Warning: Mesh SM_Shell_12Gauge_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogStaticMesh: Warning: Mesh SM_Shell_762x39_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\InInteraction\Elevator1.uasset: [Compiler] InputAction Event references unknown Action 'E' for  InputAction E
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1.umap: Failed to load '/Game/AnnParshina/Savings/NewMap1': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap.umap: Failed to load '/Game/AnnParshina/Savings/NewMap': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Level1_test2.umap: Failed to load '/Game/AnnParshina/Level1_test2_BuiltData': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021.umap: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Steam.uasset: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Steam01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Sparks.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire_Sparks01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Smoke.uasset: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Smoke01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Fire.uasset: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Fire01_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\StarterMap.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Collapse_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Starter_Music_Cue': Can't find file.
+[2022.02.27-21.41.05:305][330]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Maps\Minimal_Default.umap: Failed to load '/Game/Added/StarterContent/Audio/Starter_Background_Cue': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\FirstPerson\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\3dPerson\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/1M_Cube_Chamfer': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Geometry/Meshes/TemplateFloor': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogStaticMesh: Warning: Mesh SM_G67_Thrown is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Characters\NewBlueprint.uasset: Failed to load '/Game/AnnParshina/Characters/EarthArttackPM': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap_BuiltData': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\NewMap1_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/NewMap1_BuiltData': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AnnParshina_01122021_BuiltData.uasset: Failed to load '/Game/AnnParshina/Savings/AnnParshina_01122021_BuiltData': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\StarterContent\Blueprints\Blueprint_Effect_Explosion.uasset: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: Failed to load '/Game/Added/StarterContent/Audio/Explosion_Cue': Can't find file.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\Added\AnimStarterPack\Ue4ASP_Character.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogReflectionCaptureComponent: Warning: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Failure - 8 error(s), 138 warning(s)
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   
+[2022.02.27-21.41.05:313][331]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  32.72 seconds
+[2022.02.27-21.41.05:756][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.27-21.41.05:756][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.02.27-21.41.05:756][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.02.27-21.41.05:756][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.02.27-21.41.05:756][384]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: ================================================
+[2022.02.27-21.41.06:629][489]UATHelper: Packaging (Windows (64-bit)):   LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2022.02.27-21.41.07:138][550]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.02.27-21.41.09:135][788]UATHelper: Packaging (Windows (64-bit)): Took 75,17188s to run UE4Editor-Cmd.exe, ExitCode=1
+[2022.02.27-21.41.09:143][789]UATHelper: Packaging (Windows (64-bit)): ERROR: Cook failed.
+[2022.02.27-21.41.09:143][789]UATHelper: Packaging (Windows (64-bit)):        (see C:\Users\User\AppData\Roaming\Unreal Engine\AutomationTool\Logs\F+UE_4.27\Log.txt for full exception trace)
+[2022.02.27-21.41.09:702][856]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=25 (Error_UnknownCookFailure)
+[2022.02.27-21.41.09:710][857]UATHelper: Packaging (Windows (64-bit)): BUILD FAILED
+[2022.02.27-21.41.09:717][857]PackagingResults: Error: Unknown Cook Failure
+[2022.02.27-21.42.17:487][901]LogSlate: Window 'Output Log' being destroyed
+[2022.02.27-21.42.17:491][901]LogSlate: Window 'Output Log' being destroyed
+[2022.02.27-21.42.35:940][433]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AnnParshina/Weapon/Touret.Touret
+[2022.02.27-21.42.37:818][563]LogSlate: Window 'Touret' being destroyed
+[2022.02.27-21.42.37:850][563]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.02.27-21.42.37:851][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.27-21.42.46:190][449]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class MainAnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2022.02.27-21.42.54:971][402]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AnnParshina/Weapon/Drone.Drone
+[2022.02.27-21.43.00:761][ 39]BlueprintLog: New page: Compile Drone
+[2022.02.27-21.43.00:893][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2022.02.27-21.43.01:729][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnnParshina/Weapon/Drone" FILE="../../../../GameJam/GameJam/Content/AnnParshina/Weapon/Drone.uasset" SILENT=true
+[2022.02.27-21.43.01:757][119]LogSavePackage: Moving '../../../../GameJam/GameJam/Saved/Drone3B8D875A4662AB7117642BB71A20755B.tmp' to '../../../../GameJam/GameJam/Content/AnnParshina/Weapon/Drone.uasset'
+[2022.02.27-21.43.01:772][119]AssetCheck: New page: Asset Save: Drone
+[2022.02.27-21.43.01:772][119]LogContentValidation: Display: Validating Blueprint /Game/AnnParshina/Weapon/Drone.Drone
+[2022.02.27-21.43.02:832][237]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.02.27-21.43.02:832][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.27-21.43.10:190][750]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AnnParshina/Weapon/Drone.Drone
+[2022.02.27-21.43.28:026][808]BlueprintLog: New page: Compile Drone
+[2022.02.27-21.43.28:127][808]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2022.02.27-21.43.28:446][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnnParshina/Weapon/Drone" FILE="../../../../GameJam/GameJam/Content/AnnParshina/Weapon/Drone.uasset" SILENT=true
+[2022.02.27-21.43.28:475][825]LogSavePackage: Moving '../../../../GameJam/GameJam/Saved/Drone8981BBA646E397E6BA704295D8EE5215.tmp' to '../../../../GameJam/GameJam/Content/AnnParshina/Weapon/Drone.uasset'
+[2022.02.27-21.43.28:649][825]AssetCheck: New page: Asset Save: Drone
+[2022.02.27-21.43.28:649][825]LogContentValidation: Display: Validating Blueprint /Game/AnnParshina/Weapon/Drone.Drone
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth LMB . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth LMB" in 'BaseCharacter_C'.
+Make sure 'BaseCharacter_C' has been compiled for  Earth LMB
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:229][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Earth . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:230][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] In use pin  Target  no longer exists on node  Earth . Please refresh node or break links to remove pin.
+[2022.02.27-21.43.50:230][296]LogBlueprint: Error: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\AI\Mage.uasset: [Compiler] Could not find a function named "Earth" in 'BaseCharacter_C'.
+Make sure 'BaseCharacter_C' has been compiled for  Earth
+[2022.02.27-21.43.50:274][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.02.27-21.43.53:439][296]LogSlate: Window 'Delete Assets' being destroyed
+[2022.02.27-21.43.53:519][296]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/AnnParshina/AI/AI_Blue.AI_Blue
+	Asset Name: /Game/AnnParshina/AI/AI_RED.AI_Red
+	Asset Name: /Game/AnnParshina/AI/Mage.Mage
+	Asset Name: /Game/AnnParshina/AI/Mage_Ai.Mage_AI
+	Asset Name: /Game/AnnParshina/AI/MainAIController.MainAIController
+	Asset Name: /Game/AnnParshina/AI/Main_AI.Main_AI
+	Asset Name: /Game/AnnParshina/AI/MyTP.MyTP
+[2022.02.27-21.43.57:169][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.02.27-21.43.57:202][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.02.27-21.43.57:234][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.02.27-21.43.57:266][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.02.27-21.43.57:297][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.02.27-21.43.57:328][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.02.27-21.43.57:360][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.02.27-21.43.57:393][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.02.27-21.43.57:424][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.02.27-21.43.57:538][296]SourceControl: Error: Updated 0 paths from the index
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/AI_Blue.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/AI_RED.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/Mage.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/Mage_Ai.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/MainAIController.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/Main_AI.uasset'
+[2022.02.27-21.43.57:641][296]SourceControl: rm 'GameJam/Content/AnnParshina/AI/MyTP.uasset'
+[2022.02.27-21.44.09:659][717]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.27-21.44.09:662][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:662][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:696][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:696][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:697][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:697][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:701][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:702][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:702][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:703][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:703][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:721][717]LogBlueprint: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\InInteraction\Elevator1.uasset: [Compiler] InputAction Event references unknown Action 'E' for  InputAction E
+[2022.02.27-21.44.09:776][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:776][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:783][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:784][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:784][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:784][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:784][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:784][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: [AssetLog] F:\GameJam\GameJam\Content\AnnParshina\Levels\All_Objects.umap: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:785][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/AI_Blue': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:786][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/Main_AI': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:789][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:790][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:790][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:790][717]LogLinker: Warning: Failed to load '/Game/AnnParshina/AI/MyTP': Can't find file.
+[2022.02.27-21.44.09:944][717]LogObjectTools: Deleting 1 worlds: /Game/AnnParshina/Levels/All_Objects.All_Objects
+[2022.02.27-21.44.09:944][717]LogObjectTools: Currently 21 active worlds: /Game/AnnParshina/Level1_test.Level1_test, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_13, /Engine/Transient.World_14, /Engine/Transient.World_15, /Engine/Transient.World_16, /Engine/Transient.World_18, /Engine/Transient.World_19, /Engine/Transient.World_20, /Engine/Transient.World_21, /Engine/Transient.World_22, /Engine/Transient.World_24
+[2022.02.27-21.44.09:997][717]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.02.27-21.44.11:315][717]LogSlate: Window 'Delete Assets' being destroyed
+[2022.02.27-21.44.11:362][717]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/AnnParshina/Levels/All_Objects.All_Objects
+	Asset Name: /Game/AnnParshina/Levels/All_Objects_BuiltData.All_Objects_BuiltData
+	Asset Name: /Game/AnnParshina/Levels/Grass_LayerInfo.Grass_LayerInfo
+	Asset Name: /Game/AnnParshina/Levels/NewMap3.NewMap3
+	Asset Name: /Game/AnnParshina/Levels/NewMap3_BuiltData.NewMap3_BuiltData
+	Asset Name: /Game/AnnParshina/Levels/NewMaterial.NewMaterial
+	Asset Name: /Game/AnnParshina/Levels/All_Objects_sharedassets/Glay_LayerInfo.Glay_LayerInfo
+	Asset Name: /Game/AnnParshina/Levels/All_Objects_sharedassets/Moss_LayerInfo.Moss_LayerInfo
+	Asset Name: /Game/AnnParshina/Levels/All_Objects_sharedassets/Send_LayerInfo.Send_LayerInfo
+[2022.02.27-21.44.13:089][717]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9F4859990FF619B1342A5BDE6D9417EEB61B7186), compiling. Is special engine material.
+[2022.02.27-21.44.13:228][717]LogShaderCompilers: Display: Submitted 110 shader compile jobs with 'High' priority
+[2022.02.27-21.44.13:250][717]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 110
+[2022.02.27-21.44.13:250][717]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 100
+[2022.02.27-21.44.13:250][717]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 90
+[2022.02.27-21.44.13:250][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 80
+[2022.02.27-21.44.13:250][717]LogShaderCompilers: Display: Started 40 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.15:534][717]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 70
+[2022.02.27-21.44.15:534][717]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.15:743][717]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2022.02.27-21.44.15:743][717]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.15:951][717]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2022.02.27-21.44.15:951][717]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.16:158][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2022.02.27-21.44.16:158][717]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.16:778][717]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2022.02.27-21.44.16:778][717]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.17:610][717]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2022.02.27-21.44.17:610][717]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.17:610][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2022.02.27-21.44.17:610][717]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.17:819][717]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.02.27-21.44.17:819][717]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:233][717]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.02.27-21.44.18:233][717]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:233][717]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.02.27-21.44.18:233][717]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:266][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.02.27-21.44.18:266][717]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:649][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.02.27-21.44.18:649][717]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'High' priority
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: Total job queries 110, among them cache hits 0 (0.00%)
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: Tracking 110 distinct input hashes that result in 61 distinct outputs (55.45%)
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: RAM used: 0.30 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.02.27-21.44.18:853][717]LogShaderCompilers: Display: ================================================
+[2022.02.27-21.44.19:158][717]LogWorld: UWorld::CleanupWorld for All_Objects, bSessionEnded=true, bCleanupResources=true
+[2022.02.27-21.44.19:158][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.27-21.44.19:384][717]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.02.27-21.44.22:099][717]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.02.27-21.44.22:136][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.02.27-21.44.22:167][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.02.27-21.44.22:199][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.02.27-21.44.22:231][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.02.27-21.44.22:262][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.02.27-21.44.22:313][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.02.27-21.44.22:346][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.02.27-21.44.22:377][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.02.27-21.44.22:410][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.02.27-21.44.22:441][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.02.27-21.44.22:572][717]SourceControl: Error: Updated 0 paths from the index
+[2022.02.27-21.44.22:726][717]SourceControl: Error: warning: could not open directory 'GameJam/Content/AnnParshina/Levels/': No such file or directory
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/All_Objects.umap'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/All_Objects_sharedassets/Glay_LayerInfo.uasset'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/All_Objects_sharedassets/Moss_LayerInfo.uasset'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/All_Objects_sharedassets/Send_LayerInfo.uasset'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/Grass_LayerInfo.uasset'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/NewMap3.umap'
+[2022.02.27-21.44.22:726][717]SourceControl: rm 'GameJam/Content/AnnParshina/Levels/NewMaterial.uasset'
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Magic': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Weapon Place': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Magic': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Weapon Place': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Magic': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Weapon Place': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Magic': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Weapon Place': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'e': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP3
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'e': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP3
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'e': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP5_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'e': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP5_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP_14
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'e': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP_14
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP3
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP5_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sprite': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP_14
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Camera': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:738][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComp': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComp': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP3
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComp': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComp': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP5_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SceneComp': MyTP_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.MyTP_14
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SpringArm': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StatusAC': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StatusAC': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StatusAC': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StatusAC': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SP': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Stamina': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue2_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Stamina': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue3_5
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Stamina': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue4_2
+[2022.02.27-21.44.22:739][717]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Stamina': AI_Blue_C /Game/AnnParshina/Levels/All_Objects.All_Objects:PersistentLevel.AI_Blue_2
+[2022.02.27-21.44.45:011][375]LogSlate: Window 'Output Log' being destroyed
+[2022.02.27-21.44.45:015][375]LogSlate: Window 'Output Log' being destroyed
